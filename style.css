@@ -1,0 +1,105 @@
+#hero {
+  height: 500px;
+  background-image: url("/images/places/beachside.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#hero-content {
+  background-color: rgba(30, 43, 43, 0.8);
+  width: 600px;
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(43, 43, 46);
+  position: relative;
+  top: 150px;
+}
+
+#hero-content h1 {
+  color: white;
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+#hero-content p {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#hero-content a {
+  color: black;
+  background-color: rgb(252, 255, 0);
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+#hero-content a:hover {
+  background-color: rgb(255, 238, 12);
+}
+
+#highlight h2 {
+  color: rgb(67, 67, 68);
+  margin: 24px;
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#destinations {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  list-style: none;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+.destination {
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.destination img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  transition: all 0.5s ease-out;
+}
+
+.destination img:hover {
+  transform: scale(1.1);
+}
+
+.destination p {
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+  color: rgb(67, 67, 68);
+  margin: 24px;
+}
+
+.destination strong {
+  color: rgb(1, 209, 224);
+}
+
+body {
+  background: linear-gradient(45deg, rgb(227, 234, 255), rgb(163, 236, 241));
+}
+
+#highlight {
+  margin-bottom: 34px;
+}
